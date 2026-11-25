@@ -7,16 +7,16 @@ These are three ideas for a dry, funny 3D first-person game with a New Zealand f
 ## The three options
 
 1. **[Do Not Feed the Kea](#1-do-not-feed-the-kea-recommended)** *(recommended)*: a ranger with a leaf blower protects stranded campervans from kea and possums at an alpine pass closed by an earthquake.
-
-   <a href="#1-do-not-feed-the-kea-recommended"><img src="do-not-feed-the-kea.jpg" alt="Do Not Feed the Kea gameplay mockup" width="320"></a>
-
 2. **[Population: 1](#2-population-1)**: the last resident of a small town, after everyone else moves to Australia, keeps the shop, the pub and the petrol pump going while magpies swoop.
-
-   <a href="#2-population-1"><img src="population-1.jpg" alt="Population: 1 gameplay mockup" width="320"></a>
-
 3. **[Special Votes](#3-special-votes)**: the overnight count of special votes in a dead-heat election, with loose ballot papers and campaign signs that won't come down.
 
-   <a href="#3-special-votes"><img src="special-votes.jpg" alt="Special Votes gameplay mockup" width="320"></a>
+<table>
+  <tr>
+    <td align="center" width="33%"><a href="#1-do-not-feed-the-kea-recommended"><img src="do-not-feed-the-kea.jpg" alt="Do Not Feed the Kea gameplay mockup"></a><br><b>1. Do Not Feed the Kea</b></td>
+    <td align="center" width="33%"><a href="#2-population-1"><img src="population-1.jpg" alt="Population: 1 gameplay mockup"></a><br><b>2. Population: 1</b></td>
+    <td align="center" width="33%"><a href="#3-special-votes"><img src="special-votes.jpg" alt="Special Votes gameplay mockup"></a><br><b>3. Special Votes</b></td>
+  </tr>
+</table>
 
 See also the [comparison](#comparison), [next steps](#next-steps) and the [prompts used for the mockup images](image-prompts.md).
 

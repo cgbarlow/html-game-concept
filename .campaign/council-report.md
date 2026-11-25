@@ -1,0 +1,98 @@
+---
+created: 2026-11-25
+council-type: standalone
+---
+
+# Council Report
+
+**Brief:** Top 3 recommendations for a dry, hilarious 3D FPS that is topical (current affairs), has widespread appeal, and an NZ flavour. To be built with the installed `onefile-aaa` skill (FPS scope cap: one 100×60 m map, one weapon, two enemy types, three objectives, three waves, an exit).
+
+**Topical material (searched 25 Nov 2026):**
+- knife-edge 7 Nov election, with special votes due 27 Nov;
+- 5.7 quake near Arthur's Pass, with weeks of aftershocks expected;
+- petrol driving living costs to 3.2%;
+- record numbers of New Zealanders leaving the country;
+- RNZ budget blowout and job cuts;
+- NZDF database breach;
+- COP31 fossil-fuel text.
+
+## Animal Perspectives
+
+### Bear: Vision & Direction
+- "Dry" is the brief: deadpan officialdom (signage, radio, HUD), not wacky characters.
+- The news gives plenty of material.
+- Enemies should be animals or objects, never people.
+- Prefer the idea where the topical hook is the setting rather than the punchline, so it lasts.
+
+### Cat: Risk & Scope
+- Never shoot native species: kea must be repelled without harm.
+- Pests (possums, rabbits, magpies) are acceptable but keep it bloodless.
+- No real politicians, parties, broadcasters, brands or agencies.
+- Avoid child poverty, the custody death and the school story. The quake works as a backdrop only, with no victims shown.
+- Election humour goes stale quickly and risks looking partisan.
+- No pipeline gate judges comedy: the critic is blind to jokes.
+
+### Owl: Process & Structure
+- The folder is empty. Pick one concept and write a one-line prompt.
+- Run on the Omarchy machine (needs Chrome and a GPU), starting with the `quick` budget.
+- Write the comedy copy before the run, or edit SPEC.md after G1, because the skill asks nothing.
+- Fit every concept to the FPS scope cap.
+
+### Puppy: Opportunities & Momentum
+- Kea strip cars at Arthur's Pass, the exact place the quake hit.
+- November is magpie swooping season, which Australians recognise too.
+- Drop, Cover, Hold works as a crouch mechanic.
+- Small details: a ticking petrol sign, a population sign counting down, a "Yeah nah" menu option, a pie warmer as a health pickup.
+
+### Rabbit: Resources & Stakeholders
+- `decals/canvas-text.js` handles signs; there's no voice acting (synthesised only), so text carries the jokes cheaply.
+- T3 snow is the only calibrated look (lowest risk); T9 countryside is untested.
+- Needs a Kiwi sense-check for te reo Māori and references, and a non-Kiwi to test appeal.
+- Cost: about 5 h and about 4M tokens per quick run.
+
+### Wolf: Cohesion & Balance
+- NZ flavour and wide appeal: use jokes that work on two levels.
+- Topical and lasting: favour the setting over the headline.
+- Punch up: mock institutions and absurdity, not struggling people.
+- The pipeline spends hours on looks and none on laughs, so the user must look after the comedy.
+
+## Consensus
+
+**Common themes:**
+- wildlife or objects as enemies;
+- a deadpan institutional voice carried by signage and HUD text;
+- topical setting rather than topical punchline;
+- comedy needs a human owner because no gate checks it.
+
+**Key tension:** freshness versus shelf life, resolved toward a lasting setting the skill already renders well (T3 snow).
+
+**Assessment:** a capable visual pipeline plus rich live NZ material. The winning ideas combine a news-as-setting premise, animal enemies and joke-bearing signage.
+
+## Top 3 Recommendations
+
+1. **DO NOT FEED THE KEA** (recommended)
+   - **Setting:** a car park at an alpine pass closed by the quake, in aftershock season. T3 snow look.
+   - **Weapon:** ranger-issue leaf blower.
+   - **Enemies:** kea (flying; non-lethal, blown away, return offended) and possums (ground; blown into trap boxes).
+   - **Objectives:** protect three stranded campervans over three waves until the highway reopens.
+   - **Twist:** aftershock alerts force Drop, Cover, Hold.
+2. **POPULATION: 1**
+   - **Setting:** last resident of a small town after everyone moved to Australia. T9 spring countryside look.
+   - **Weapon:** tennis-ball launcher.
+   - **Enemies:** swooping magpies (flying) and rabbits (ground).
+   - **Objectives:** keep the dairy, the pub and the petrol pump (price rising each wave) going.
+   - **Ending:** a Perth job offer arrives. "Yeah nah."
+3. **SPECIAL VOTES**
+   - **Setting:** a tied election, with special votes being counted in a community hall.
+   - **Weapon:** official date stamp.
+   - **Enemies:** leftover hoardings from fictional parties that won't come down, plus loose ballots blown by a broken heat pump.
+   - **Objectives:** box every ballot before the deadline.
+   - **Caveat:** most topical, but shortest shelf life and highest political risk.
+
+## Recommended Next Steps
+
+1. Choose one concept (recommended: Do Not Feed the Kea).
+2. Write about 30 lines of signage, HUD and radio copy and fold them into the prompt or SPEC.md.
+3. Run `onefile-aaa` with `Budget: quick` on the Omarchy machine (Chrome and a GPU).
+4. Kiwi and non-Kiwi playtests of the jokes; a te reo Māori sense-check.
+5. Keep every party, agency and brand fictional; keep native wildlife unharmed.
