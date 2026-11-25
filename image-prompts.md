@@ -1,6 +1,6 @@
 # Gameplay Mockup Prompts
 
-These are one-prompt mockups for each game in [top-3-concepts.md](top-3-concepts.md), showing a first-person screenshot as if captured during play. Paste each prompt into an image generator as it is. For Midjourney, add `--ar 16:9` at the end.
+These are one-prompt mockups for each of the [three game concepts](README.md), showing a first-person screenshot as if captured during play. Paste each prompt into an image generator as it is. For Midjourney, add `--ar 16:9` at the end.
 
 1. [Do Not Feed the Kea](#1-do-not-feed-the-kea)
 2. [Population: 1](#2-population-1)

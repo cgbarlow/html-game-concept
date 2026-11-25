@@ -10,7 +10,7 @@ These are three ideas for a dry, funny 3D first-person game with a New Zealand f
 2. **[Population: 1](#2-population-1)**: the last resident of a small town, after everyone else moves to Australia, keeps the shop, the pub and the petrol pump going while magpies swoop.
 3. **[Special Votes](#3-special-votes)**: the overnight count of special votes in a dead-heat election, with loose ballot papers and campaign signs that won't come down.
 
-See also the [comparison](#comparison) and [next steps](#next-steps).
+See also the [comparison](#comparison), [next steps](#next-steps) and the [prompts used for the mockup images](image-prompts.md).
 
 ---
 
@@ -43,6 +43,8 @@ See also the [comparison](#comparison) and [next steps](#next-steps).
 
 ## 1. DO NOT FEED THE KEA *(recommended)*
 
+![Gameplay mockup: first-person view of a gloved player aiming an orange cordless leaf blower at a snowy campervan, blasting a kea off the bonnet while two more kea perch on the wipers, with road cones and a "Road Closed" barrier in an alpine pass](do-not-feed-the-kea.jpg)
+
 > *Kea are protected. You are not.*
 
 **The pitch.** An aftershock has closed the road over an alpine pass. You're the ranger left in charge of the car park, and three tourists' campervans are stuck there. The local kea (cheeky mountain parrots) have noticed that the vans are full of rubber.
@@ -73,6 +75,8 @@ See also the [comparison](#comparison) and [next steps](#next-steps).
 
 ## 2. POPULATION: 1
 
+![Gameplay mockup: first-person view of a toy tennis-ball launcher firing at a swooping magpie on the empty main street of a small country town, with a dairy, a pub, an old petrol pump, rabbits on the verge, gorse-covered hills and a "Farewell & Good Luck" banner](population-1.jpg)
+
 > *Last one out, turn off the lights. Unless it's you. Then leave them on.*
 
 **The pitch.** Everyone in your small town has moved to Australia except you. The welcome sign's population count drops every wave. It's spring, and the magpies are swooping.
@@ -97,6 +101,8 @@ See also the [comparison](#comparison) and [next steps](#next-steps).
 ---
 
 ## 3. SPECIAL VOTES
+
+![Gameplay mockup: first-person view of a hand holding a wooden rubber date stamp in a dim community hall at night, ballot papers swirling in the air and a red and a blue election sign waddling across the floorboards, with a 0:42 countdown and a tied 412–412 tally](special-votes.jpg)
 
 > *Every vote counts. Several of them are currently loose.*
 
