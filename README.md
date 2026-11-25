@@ -2,7 +2,7 @@
 
 These are three ideas for a dry, funny 3D first-person game with a New Zealand flavour, built from current news. They're meant to be built with the [`onefile-aaa`](https://github.com/elcronos/whiteout-onefile) skill, which makes a whole 3D game as one HTML file under 2 MB.
 
-*Written 25 November 2026, from a Council review.*
+*Written 25 November 2026, from a Council review run with [Campaign Mode](https://github.com/cgbarlow/campaign-mode). See the [Council report](.campaign/council-report.md) and the [full session transcript](.campaign/conversations/2026-11-25-21-09-council.md).*
 
 ## The three options
 
