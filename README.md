@@ -18,7 +18,7 @@ These are three ideas for a dry, funny 3D first-person game with a New Zealand f
   </tr>
 </table>
 
-See also the [comparison](#comparison), [next steps](#next-steps) and the [prompts used for the mockup images](image-prompts.md).
+See also the [comparison](#comparison), [next steps](#next-steps), the [prompts used for the mockup images](image-prompts.md) and [how to build the games on a Mac mini](mac-setup.md).
 
 ---
 
@@ -149,7 +149,7 @@ See also the [comparison](#comparison), [next steps](#next-steps) and the [promp
 
 1. **Pick one concept.** The recommendation is *Do Not Feed the Kea*.
 2. **Write the jokes yourself.** The skill's quality checks only score how the game looks, so nothing in it checks whether the game is funny. Write about 30 lines of signs, messages and radio calls, and add them to the prompt or to the skill's design document (`SPEC.md`) once it's created.
-3. **Run it on a machine with a real graphics card,** not in the dev container, with Google Chrome installed. Use `Budget: quick`, which takes about 5 hours and about 4 million tokens.
+3. **Run it on a machine with a real graphics card,** not in the dev container, with Google Chrome installed. Use `Budget: quick`, which takes about 5 hours and about 4 million tokens. For step-by-step instructions, see [Building the games on a Mac mini](mac-setup.md).
 4. **Test the jokes** on one New Zealander and one non-New Zealander. Have someone fluent check any te reo Māori.
 
 ## Sources
