@@ -14,7 +14,8 @@ These are image-generation prompts for mock screenshots of the three game ideas 
   - **A. Mid-wave:** the main action, mid-fight.
   - **B. The twist:** the mechanic that makes this concept different.
   - **C. Objective moment:** the closing moment of the round, a win or a near-loss.
-- **Build each prompt from four blocks.** Paste the [shared style block](#shared-style-block), then the concept's **look block**, then its **HUD block**, then the screenshot prompt. Use the [shared negative prompt](#shared-negative-prompt) where the tool supports one.
+- **Build each prompt from five blocks.** Paste the [shared style block](#shared-style-block), then the concept's **look block**, **weapon block** and **HUD block**, then the screenshot prompt. For the negative prompt, use the [shared negative prompt](#shared-negative-prompt) plus the concept's **extra negatives**, where the tool supports one.
+- **Why the weapon block matters.** Image generators guess at unusual objects. Without a precise description, a leaf blower can come out as a shovel or a rifle. The weapon block describes the shape exactly, and the extra negatives rule out the usual wrong guesses.
 - **Which tools.** The prompts are written in plain English, so they work in most image generators. For Midjourney, add `--ar 16:9`. For tools without negative prompts, add "no gore, no real logos" at the end.
 - **On-screen text.** Image generators often garble lettering. The HUD blocks ask for short labels only. Put the real wording in afterwards with an image editor, using each concept's **HUD and sign text** list.
 - **Guardrails.** These follow the [rules in top-3-concepts.md](top-3-concepts.md#rules-for-all-three-concepts): no real people, brands, parties or government logos, and no harm to native wildlife. Animals are cheeky and annoying, never hurt.
@@ -52,6 +53,21 @@ orange accents from road cones and barriers. Three white rental campervans with 
 in the bays.
 ```
 
+**Weapon block:**
+```
+The player's weapon is a handheld petrol leaf blower, seen from first person in the lower right of the frame:
+a bright orange plastic engine housing with a top carry handle, a trigger and a pull-start cord, held in a gloved
+right hand. From the front of the housing, a long, straight, round plastic air tube about 80 cm long points forward
+into the scene. The tube ends in a plain round opening, the same width as the tube. Nothing is attached to the end:
+no blade, no flat nozzle, no metal head. A visible jet of air comes out of the tube, carrying snow.
+```
+
+**Extra negatives:**
+```
+shovel, spade, snow shovel, scoop, blade, axe, broom, rake, rifle, shotgun, gun barrel, flat flared nozzle,
+metal head on the end of the tube
+```
+
 **HUD block:**
 ```
 HUD: top left, a small objective panel listing three campervans, each with a short damage bar. Top centre, a wave
@@ -68,8 +84,8 @@ leaf blower. A small crosshair in the centre. Flat, semi-transparent dark panels
 
 ### 1A. Mid-wave
 ```
-The player holds a petrol leaf blower in the lower right, nozzle forward, gloved hands on the handle. A blast of air
-and swirling snow knocks a startled kea off the roof of the nearest campervan; the olive-green parrot tumbles
+The player holds the orange leaf blower in the lower right, its long round air tube pointing forward. A jet of air
+and swirling snow from the open end of the tube knocks a startled kea off the roof of the nearest campervan; the olive-green parrot tumbles
 backwards unharmed, wings spread, flashing orange-red underwings, looking offended. Two more kea are perched on
 the van's wipers. Further back, a brushtail possum runs across the snow toward a wooden trap box. Kill-feed lines in
 the top right. Snow particles streak past the camera.
@@ -78,7 +94,7 @@ the top right. Snow particles streak past the camera.
 ### 1B. The twist: aftershock
 ```
 The camera is low to the ground and tilted slightly, as if the player has just crouched behind a concrete barrier.
-The leaf blower is lowered. A large safety-orange alert banner fills the top of the HUD with a shaking-ground icon.
+The orange leaf blower is lowered, its round air tube resting across the bottom of the frame. A large safety-orange alert banner fills the top of the HUD with a shaking-ground icon.
 Light motion blur and camera shake; snow and grit lift off the ground; a road cone has toppled. Kea have taken off
 in a startled flock above the campervans. A crack runs across the asphalt in front of the barrier.
 ```
@@ -86,7 +102,8 @@ in a startled flock above the campervans. A crack runs across the asphalt in fro
 ### 1C. Objective moment: the road reopens
 ```
 Late in the round. The player stands at the car park exit looking down the mountain road. A road-closed barrier
-is swinging open, its orange lamp flashing. The leaf blower's fuel gauge is nearly empty. In the HUD, all three van
+is swinging open, its orange lamp flashing. The orange leaf blower is in the lower right, its air tube pointing
+down the road, and its fuel gauge in the HUD is nearly empty. In the HUD, all three van
 damage bars are low but not empty. On top of the barrier, a single kea is holding a traffic cone in its beak,
 staring at the camera. Snow is easing off and a sliver of brighter sky shows through the clouds.
 ```
@@ -101,6 +118,19 @@ Main street of a tiny rural New Zealand town in spring: old wooden shopfronts wi
 roofs, a small corner shop ("dairy"), a pub, an old single petrol pump on a forecourt, a small war memorial, cabbage
 trees, yellow gorse flowering on the hills behind, bright afternoon sun with big white clouds, warm slightly faded
 colours. The town is completely deserted.
+```
+
+**Weapon block:**
+```
+The player's weapon is a chunky handheld dog-toy tennis-ball launcher, seen from first person in the lower right
+of the frame: bright blue and orange plastic, a pistol grip with a big trigger, held in a right hand. It has a
+short, wide, round barrel, with a fuzzy yellow-green tennis ball visible in the open end, and a clear plastic
+hopper on top holding three more tennis balls. It looks like a toy, not a firearm.
+```
+
+**Extra negatives:**
+```
+real gun, rifle, pistol, firearm, metal barrel, cannon, bazooka, bow, slingshot, cricket bat
 ```
 
 **HUD block:**
@@ -153,6 +183,18 @@ Interior of an old New Zealand community hall at night: wooden floorboards, a sm
 curtains, varnished wooden honours boards on the walls, stacked plastic chairs, long trestle tables piled with
 ballot papers and plain cardboard ballot boxes, flickering fluorescent tube lights, rain streaking the tall windows.
 Cool green-white light with warm wood tones.
+```
+
+**Weapon block:**
+```
+The player's weapon is a large old-fashioned rubber date stamp, seen from first person in the lower right of the
+frame: a rounded wooden handle gripped in a right fist like a hammer, a small metal frame with rotating date wheels,
+and a flat rectangular rubber base with purple ink on it, facing forward. It is about the size of a coffee mug.
+```
+
+**Extra negatives:**
+```
+gun, pistol, hammer, mallet, gavel, axe, sword, wand, stapler
 ```
 
 **HUD block:**
