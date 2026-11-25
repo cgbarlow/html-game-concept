@@ -4,6 +4,14 @@ These are three ideas for a dry, funny 3D first-person game with a New Zealand f
 
 *Written 25 November 2026, from a Council review.*
 
+## The three options
+
+1. **[Do Not Feed the Kea](#1-do-not-feed-the-kea-recommended)** *(recommended)*: a ranger with a leaf blower protects stranded campervans from kea and possums at an alpine pass closed by an earthquake.
+2. **[Population: 1](#2-population-1)**: the last resident of a small town, after everyone else moves to Australia, keeps the shop, the pub and the petrol pump going while magpies swoop.
+3. **[Special Votes](#3-special-votes)**: the overnight count of special votes in a dead-heat election, with loose ballot papers and campaign signs that won't come down.
+
+See also the [comparison](#comparison) and [next steps](#next-steps).
+
 ---
 
 ## The brief
