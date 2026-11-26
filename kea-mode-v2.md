@@ -4,6 +4,10 @@ The sequel prompt for [Do Not Feed the Kea](https://github.com/cgbarlow/kea-game
 the same car park, played as the kea. Drafted on 27 November 2026 by a Council review run with
 [Campaign Mode](https://github.com/cgbarlow/campaign-mode), from this repo's brief and rules and the finished v1 build.
 
+**Status: built** (27 November 2026). See the
+[`v2-kea-mode` branch](https://github.com/cgbarlow/kea-game/tree/v2-kea-mode) of kea-game, and the "How the build went" notes in
+the [README](README.md#sequel-v2-play-as-the-kea) for what playtesting changed.
+
 Unlike the three original prompts, this one is not a fresh `/onefile-aaa` run. The skill only starts new projects, so
 v2 is built on top of the v1 code: run the build prompt in Claude Code from a clone of
 [kea-game](https://github.com/cgbarlow/kea-game), with the `onefile-aaa` skill installed for its tools, critic and gates.

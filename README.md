@@ -83,8 +83,10 @@ See also the [comparison](#comparison), [next steps](#next-steps), the [v2 Kea m
 
 > *The kea are protected. The cone is not.*
 
-v1 is [built and playable](https://kea.chrisbarlow.nz/) ([source](https://github.com/cgbarlow/kea-game)). Its title
-screen already lists a **Kea** mode as *"coming soon, pending risk assessment"*. v2 makes it playable: the same car park
+**Status: built.** v1 is [live and playable](https://kea.chrisbarlow.nz/). v2 (Kea mode) is built from the prompt below and
+is on the [`v2-kea-mode` branch](https://github.com/cgbarlow/kea-game/tree/v2-kea-mode) of
+[kea-game](https://github.com/cgbarlow/kea-game) until it's released. v1's title screen listed a **Kea** mode as *"coming
+soon, pending risk assessment"*; v2 makes it playable (*"Risk assessment complete. Risk confirmed."*): the same car park
 from the other side. You hop, flap and glide as a kea, strip rubber from the campervans and steal the Department's road
 cone, while the ranger tries to blow you away. The ranger can't be attacked (enemies are never people), getting blown
 away just makes you come back offended, and during an aftershock the ranger has to drop, cover and hold, which is your
@@ -97,6 +99,16 @@ A deadpan New Zealand comedy, the same quake-closed alpine pass car park from th
 
 v2 builds on the v1 code rather than starting a new project, so it needs a fuller prompt (controls, opponents, win and
 lose rules, sample notices, and quality checks for both modes). See **[the full v2 build prompt](kea-mode-v2.md)**.
+
+**How the build went.** The prompt was run as-is in one Claude Code session on 27 November 2026: a v2 spec and module
+plan first, then three agents in parallel (the player kea, the AI ranger, and the Kea mode rules and HUD), then one
+integration agent to wire the modes together and run the playtest bots for both modes. Playtesting changed three things
+the prompt didn't anticipate:
+- **Every click pecks**, with a prompt under the crosshair showing what's in reach (or why nothing is), and a rubber door
+  seal at ground level on each campervan, so you don't have to land on a van to start.
+- **The beak is seen side-on**, entering from the lower left with the hook below the crosshair. Seen from above, as the
+  prompt suggested, it read as a horn.
+- **Pulled parts disappear from the van**, including roof-pod straps and door seals.
 
 ---
 
