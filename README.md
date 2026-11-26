@@ -18,7 +18,7 @@ These are three ideas for a dry, funny 3D first-person game with a New Zealand f
   </tr>
 </table>
 
-See also the [comparison](#comparison), [next steps](#next-steps), the [prompts used for the mockup images](image-prompts.md) and [how to build the games on a Mac mini](mac-setup.md).
+See also the [comparison](#comparison), [next steps](#next-steps), the [v2 Kea mode prompt](kea-mode-v2.md), the [prompts used for the mockup images](image-prompts.md) and [how to build the games on a Mac mini](mac-setup.md).
 
 ---
 
@@ -78,6 +78,25 @@ See also the [comparison](#comparison), [next steps](#next-steps), the [prompts 
 ```
 /onefile-aaa Create a first-person shooter. Concept: A deadpan New Zealand comedy at a quake-closed alpine pass car park in aftershock season: armed with a ranger-issue leaf blower, protect three stranded tourists' campervans from kea (flying, non-lethal: blown away, they return offended) and possums (ground, blown into trap boxes) until the highway reopens; aftershock alerts force you to drop, cover and hold. Humour is carried by dry official signage and HUD text. Budget: quick. Directory: ./do-not-feed-the-kea
 ```
+
+### Sequel: v2, play as the kea
+
+> *The kea are protected. The cone is not.*
+
+v1 is [built and playable](https://kea.chrisbarlow.nz/) ([source](https://github.com/cgbarlow/kea-game)). Its title
+screen already lists a **Kea** mode as *"coming soon, pending risk assessment"*. v2 makes it playable: the same car park
+from the other side. You hop, flap and glide as a kea, strip rubber from the campervans and steal the Department's road
+cone, while the ranger tries to blow you away. The ranger can't be attacked (enemies are never people), getting blown
+away just makes you come back offended, and during an aftershock the ranger has to drop, cover and hold, which is your
+window. The ending this concept promised becomes the win: *"Road open. The kea have kept the cone."*
+
+**One-line concept:**
+```
+A deadpan New Zealand comedy, the same quake-closed alpine pass car park from the other side: play as a kea (first-person, hop, flap and glide), strip rubber from three stranded campervans and steal the Department's road cone before the highway reopens, while the ranger tries to blow you away with the leaf blower (you tumble, you return offended, faster and stronger) and possums compete for the vans; when an aftershock alert sounds, the ranger has to drop, cover and hold, so that's your window. Humour is carried by dry official notices addressed to the kea, who ignores them.
+```
+
+v2 builds on the v1 code rather than starting a new project, so it needs a fuller prompt (controls, opponents, win and
+lose rules, sample notices, and quality checks for both modes). See **[the full v2 build prompt](kea-mode-v2.md)**.
 
 ---
 
